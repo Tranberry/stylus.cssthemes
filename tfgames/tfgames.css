@@ -1,0 +1,113 @@
+/* ==UserStyle==
+@name         Flat & Borderless - TFGames.site
+@version      0.0.1
+@description  A borderless more 2020 theme for TFGames.site
+@namespace    TRBRY.styles
+@author       TRBRY (https://github.com/tranberry)
+@homepageURL  https://github.com/Tranberry/stylus.cssthemes
+@supportURL   https://github.com/Tranberry/stylus.cssthemes/issues
+@updateURL    TODO:ADDTHIS https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css
+@license      MIT
+==/UserStyle== */
+
+*,
+*::before,
+*::after {
+  border: 0 !important;
+  border-style: none !important;
+  border-width: 0 !important;
+  border-color: transparent !important;
+  box-sizing: border-box;
+  border-radius: 1px !important;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  line-height: 110%;
+  margin: .5em;
+  font-size: 110%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.bodyplaceholder_left>* {
+  padding: .6em;
+}
+
+i {
+  margin: 0.1em 0;
+  display: inline-block;
+}
+
+.header div img {
+  filter: hue-rotate(73.5deg);
+}
+
+br {
+  content: '';
+  line-height: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#play input {
+  min-height: 2em;
+  background-color: teal;
+  color: beige;
+  margin: .5em;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+#play input:hover {
+  background-color: lightblue;
+  color: rgb(36, 33, 33);
+  cursor: pointer;
+}
+
+span[style*="font-size: small"] {
+  font-size: initial !important;
+}
+
+.reviewcontent {
+  margin: 1em 0;
+  background: #eee;
+  padding: 1em;
+}
+
+.viewgameheader {
+  padding: .5em 0;
+}
+
+.reviewcontent>div {
+  font-weight: 900;
+}
+
+.nav li a,
+.nav li.welcome {
+  background: none !important;
+}
+
+.nav li:hover{
+  background-color: ivory;
+}
+
+.welcome {
+  filter: blur(3.2px);
+}
+.welcome:hover {
+  filter: blur(0);
+}
+
+.topmenu,.bodyplaceholder,.footer {
+  padding: 0 1.4rem;
+  max-width: 100vw;
+}
