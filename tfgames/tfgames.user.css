@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Flat & Borderless - TFGames.site
-@version      0.0.15
+@version      0.0.16
 @description  A borderless more 2020 theme for TFGames.site
 @namespace    TRBRY.styles
 @author       TRBRY (https://github.com/tranberry)
@@ -18,12 +18,6 @@
                 url(https://tfgames.site),
                 url(https://www.tfgames.site) {
 
-
-      /*  WARNING THIS IS ABSOLUTLY BROKEN IN CHROME - Only works in Firefox
-          The list of games are strangly nested example 
-              <div> <br\> <i> <a> title </a> </i> text
-          text have the div as parent, no li nor anything else
-      */
 
       *,
       *::before,
