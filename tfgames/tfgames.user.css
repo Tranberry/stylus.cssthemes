@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Flat & Borderless - TFGames.site
-@version      0.0.14
+@version      0.0.15
 @description  A borderless more 2020 theme for TFGames.site
 @namespace    TRBRY.styles
 @author       TRBRY (https://github.com/tranberry)
@@ -57,11 +57,6 @@
       .newsheadercontent * {
         margin: 0.1em 0;
         display: inline-block;
-      }
-
-      br {
-        content: '';
-        line-height: .5em;
       }
 
       img {
