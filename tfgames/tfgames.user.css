@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Flat & Borderless - TFGames.site
-@version      0.0.10
+@version      0.0.11
 @description  A borderless more 2020 theme for TFGames.site
 @namespace    TRBRY.styles
 @author       TRBRY (https://github.com/tranberry)
@@ -104,6 +104,13 @@
 
       .reviewcontent>div {
         font-weight: 900;
+      }
+
+      .nav li ul a {
+        line-height: 1em;
+        font-size: .8em;
+        padding: .2em .4em;
+        text-align: left;
       }
 
       .nav li a,
