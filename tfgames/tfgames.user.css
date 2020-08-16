@@ -50,7 +50,7 @@ i {
 
 br {
   content: '';
-  line-height: 1px;
+  line-height: .5em;
 }
 
 img {
@@ -110,4 +110,10 @@ span[style*="font-size: small"] {
 .topmenu,.bodyplaceholder,.footer {
   padding: 0 1.4rem;
   max-width: 100vw;
+}
+
+.header > div {
+	display: block !important;
+	float: none !important;
+	width: initial !important;
 }
