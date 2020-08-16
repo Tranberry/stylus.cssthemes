@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Flat & Borderless - TFGames.site
-@version      0.0.7
+@version      0.0.8
 @description  A borderless more 2020 theme for TFGames.site
 @namespace    TRBRY.styles
 @author       TRBRY (https://github.com/tranberry)
@@ -10,114 +10,119 @@
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document domain("tfgames.site") {
 
-  *,
-  *::before,
-  *::after {
-    border: 0 !important;
-    border-style: none !important;
-    border-width: 0 !important;
-    border-color: transparent !important;
-    box-sizing: border-box;
-    border-radius: 1px !important;
-  }
+@-moz-document  url-prefix(https: //tfgames.site/?),
+                url-prefix(https: //www.tfgames.site/?),
+                url(https://tfgames.site),
+                url(https://www.tfgames.site) {
 
-  input,
-  button,
-  textarea,
-  select {
-    font: inherit;
-  }
+      *,
+      *::before,
+      *::after {
+        border: 0 !important;
+        border-style: none !important;
+        border-width: 0 !important;
+        border-color: transparent !important;
+        box-sizing: border-box;
+        border-radius: 1px !important;
+      }
 
-  body {
-    line-height: 110%;
-    margin: .5em;
-    font-size: 110%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
 
-  .bodyplaceholder_left>* {
-    padding: .6em;
-  }
+      body {
+        line-height: 110%;
+        margin: .5em;
+        font-size: 110%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }
 
-  i {
-    margin: 0.1em 0;
-    display: inline-block;
-  }
+      .bodyplaceholder_left>* {
+        padding: .6em;
+      }
 
-  br {
-    content: '';
-    line-height: .5em;
-  }
+      i {
+        margin: 0.1em 0;
+        display: inline-block;
+      }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+      br {
+        content: '';
+        line-height: .5em;
+      }
 
-  span[style*="font-size: small"] {
-    font-size: initial !important;
-  }
-  .header div img {
-    filter: hue-rotate(73.5deg);
-  }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
 
-  .header>div {
-    display: block !important;
-    float: none !important;
-    width: initial !important;
-  }
+      span[style*="font-size: small"] {
+        font-size: initial !important;
+      }
 
-  #play input {
-    min-height: 2em;
-    background-color: teal;
-    color: beige;
-    margin: .5em;
-    font-weight: 900;
-    font-size: 1em;
-  }
+      .header div img {
+        filter: hue-rotate(73.5deg);
+      }
 
-  #play input:hover {
-    background-color: lightblue;
-    color: rgb(36, 33, 33);
-    cursor: pointer;
-  }
+      .header>div {
+        display: block !important;
+        float: none !important;
+        width: initial !important;
+      }
 
+      #play input {
+        min-height: 2em;
+        background-color: teal;
+        color: beige;
+        margin: .5em;
+        font-weight: 900;
+        font-size: 1em;
+      }
 
-  .reviewcontent {
-    margin: 1em 0;
-    background: #eee;
-    padding: 1em;
-  }
-
-  .viewgameheader {
-    padding: .5em 0;
-  }
-
-  .reviewcontent>div {
-    font-weight: 900;
-  }
-
-  .nav li a,
-  .nav li.welcome {
-    background: none !important;
-    font-size: 1.3em;
-  }
-
-  .nav li:hover {
-    background-color: ivory;
-  }
-
-  .welcome {
-    font-weight: 100;
-  }
-
-  .bodyplaceholder,
-  .footer {
-    padding: 0 1.4rem;
-    max-width: 100vw;
-  }
+      #play input:hover {
+        background-color: lightblue;
+        color: rgb(36, 33, 33);
+        cursor: pointer;
+      }
 
 
-}
+      .reviewcontent {
+        margin: 1em 0;
+        background: #eee;
+        padding: 1em;
+      }
+
+      .viewgameheader {
+        padding: .5em 0;
+      }
+
+      .reviewcontent>div {
+        font-weight: 900;
+      }
+
+      .nav li a,
+      .nav li.welcome {
+        background: none !important;
+        font-size: 1.3em;
+      }
+
+      .nav li:hover {
+        background-color: ivory;
+      }
+
+      .welcome {
+        font-weight: 100;
+      }
+
+      .bodyplaceholder,
+      .footer {
+        padding: 0 1.4rem;
+        max-width: 100vw;
+      }
+
+
+    }
