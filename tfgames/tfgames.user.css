@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Flat & Borderless - TFGames.site
-@version      0.0.17
+@version      0.0.18
 @description  A borderless more 2020 theme for TFGames.site
 @namespace    TRBRY.styles
 @author       TRBRY (https://github.com/tranberry)
@@ -11,12 +11,13 @@
 ==/UserStyle== */
 
 
-@-moz-document  url-prefix(https://tfgames.site/?),
-                url-prefix(https://www.tfgames.site/?),
-                url-prefix("https://www.tfgames.site/index"),
-                url-prefix("https://tfgames.site/index"),
-                url(https://tfgames.site),
-                url(https://www.tfgames.site) {
+@-moz-document url-prefix(https: //tfgames.site/?),
+  url-prefix(https: //www.tfgames.site/?),
+
+    url-prefix("https://www.tfgames.site/index"),
+    url-prefix("https://tfgames.site/index"),
+    url(https://tfgames.site),
+    url(https://www.tfgames.site) {
 
 
       *,
@@ -115,10 +116,12 @@
         font-size: 1.3em;
       }
 
-      .nav li a, .nav li.welcome, .topmenusearch {
+      .nav li a, 
+      .nav li.welcome, 
+      .topmenusearch {
         background-image: none !important;
         font-size: 1.2rem;
-        padding: 0.7em 2em;
+        padding: 0.7em .8em;
         font-weight: 500;
       }
 
