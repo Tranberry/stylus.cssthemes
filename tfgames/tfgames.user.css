@@ -115,6 +115,12 @@
         font-size: 1.3em;
       }
 
+      .nav li a, .nav li.welcome {
+        background: none !important;
+        font-size: 1.3em;
+        padding: 0.6em 1.4em;
+      }
+
       .nav li:hover {
         background-color: ivory;
       }
